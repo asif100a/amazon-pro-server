@@ -26,13 +26,41 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
+
+    // Collection of DB
+    const gamingAccessoriesCollection = client.db('Amazon-pro').collection('gammingAccessories');
+    const homeEssentialsCollection = client.db('Amazon-pro').collection('homeEssentials');
+
+    // Read all Gaming Accessories data
+    app.get('/gaming-accessories', async(req, res) => {
+      const data = await gamingAccessoriesCollection.find().toArray();
+      res.json(data);
+    });
+
+    // Read all Home Essentials data
+    app.get('/home-essentials', async(req, res) => {
+      const data = await homeEssentialsCollection.find().toArray();
+      res.json(data);
+    })
+
+    app.delete('/delete', async(req, res) => {
+      const result = await homeEssentialsCollection.deleteMany();
+      res.send(result);
+    })
+
+    app.post('/insert', async(req, res) => {
+      console.log('Fake data:', )
+      // const result = await homeEssentialsCollection.insertMany();
+      // res.send(result);
+    })
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
-    await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);

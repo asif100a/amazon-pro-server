@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "6729fb781389823d018d4285",
+        "title": "39 Piece General Household Tool Set",
+        "description": "Essential hand tools for everyday home repairs, DIY, and crafts. Comes in a convenient toolbox storage case.",
+        "rating": 4.7,
+        "price": 22.24,
+        "delivery_date": "2024-11-10",
+        "image": "https://m.media-amazon.com/images/I/91e0S7FxmaL.jpg",
+        "category": "Tools"
+    },
+    {
+        "_id": "6729fb781389823d018d4286",
+        "title": "Mixing Bowls Set",
+        "description": "8-piece stainless steel nesting bowls with airtight lids and grater attachments. Perfect for mixing and serving.",
+        "rating": 4.7,
+        "price": 29.99,
+        "delivery_date": "2024-11-12",
+        "image": "https://m.media-amazon.com/images/I/51aBv22vc5L._AC_SL1425_.jpg",
+        "category": "Kitchenware"
+    },
+    {
+        "_id": "6729fb781389823d018d4287",
+        "title": "Qtip Holder Dispenser",
+        "description": "Clear plastic canister set for cotton swabs, balls, and pads. Ideal for bathroom essentials and makeup storage.",
+        "rating": 4.5,
+        "price": 9.99,
+        "delivery_date": "2024-11-11",
+        "image": "https://m.media-amazon.com/images/I/71fYfGSKoBL._AC_UF1000,1000_QL80_.jpg",
+        "category": "Bathroom Accessories"
+    },
+    {
+        "_id": "6729fb781389823d018d4288",
+        "title": "Trivets for Hot Dishes",
+        "description": "Set of 4 heat-resistant trivets for protecting your table from hot pots and pans. Essential kitchen accessories.",
+        "rating": 4.7,
+        "price": 5.98,
+        "delivery_date": "2024-11-13",
+        "image": "https://m.media-amazon.com/images/I/A1cOfuzSSCL._AC_UF894,1000_QL80_.jpg",
+        "category": "Kitchenware"
+    },
+    {
+        "_id": "6729fb781389823d018d4289",
+        "title": "Silicone Utensil Rest",
+        "description": "Durable and heat-resistant spoon rest with drip pad to keep your kitchen counter clean.",
+        "rating": 4.7,
+        "price": 9.99,
+        "delivery_date": "2024-11-14",
+        "image": "https://image.made-in-china.com/202f0j00nKdRiersffbU/Amazon-Hot-Sale-Silicone-Spoon-Holder-Food-Grade-Kitchen-Utensil-Spoon-Rest.webp",
+        "category": "Kitchenware"
+    },
+    {
+        "_id": "6729fb781389823d018d428a",
+        "title": "Large Laundry Basket",
+        "description": "Waterproof and collapsible laundry hamper with extended handles for easy carrying. Perfect for clothes or toys.",
+        "rating": 4.4,
+        "price": 15.18,
+        "delivery_date": "2024-11-15",
+        "image": "https://m.media-amazon.com/images/I/71w0m3htdNL.jpg",
+        "category": "Laundry & Storage"
+    }
+]
